@@ -6,6 +6,10 @@
   <style>
    header,nav,section,article,aside,footer
    {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+   header h2 {float:left; border:solid 1px gray; margin:0 0 0 0;}
+   header #headMenu {float:right; border:solid 1px gray; margin:20px 0 0 0;}
+   header ul {margin:0; padding:0;}
+   header ul li {display:inline; margin:5px;}    
    header img {width:990px; height:200px;}
    section{width:750px; float:left;}
    section section{width:725px; float:left;}
@@ -24,14 +28,21 @@
   <title>시멘틱 학습</title>
   </head>
    <body>
-   <header><h2>실습을 환영합니다</h2>
+   <header>
+     <h2><a href="https://jsptogo.herokuapp.com/12/basicSemantic4.html">실습을 환영합니다</a></h2>
+     <ul id="headMenu">
+       <li>로그인|<li>
+       <li><a href="https://jsptogo.herokuapp.com/12/basicSemanticMember1.html">회원가입</a>|</li>
+       <li>사이트맵</li>
+     </ul>
    <img src="scene.png" alt="히말라야"/>
    </header>
    <nav>
      <ul>
-      <li><a href="https://naver.com"target="_blank">네이버(새윈도우)</a></li>
-      <li><a href="anchor2.html">사이트 내 문서이동</a></li>
-      <li><a href="#chapter1">제 1장 이동(북마크 이동)</a></li>  
+      <li><a href="https://www.w3.org/TR/html5/" target="_blank">HTML5</a></li>
+      <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+      <li><a href="https://jquerymobile.com/" target="_blank">jQueryMobile</a></li> 
+      <li><a href="jspintro.html">JSP</a></li>  
      </ul></nav>
      <section> 
      <section><a href="anchor2.html"><h3 id="chapter1">오늘의 교통상황</h3></a>
