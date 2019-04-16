@@ -1,0 +1,49 @@
+<!doctype html>   <!-- formText2.html -->
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viweport" content="width=device-width,initial-scale=1"/>
+  <title>Form 과제</title>
+   </head>
+  <body>
+    <section>
+        <fieldset>
+         <legend>그래픽카드</legend>
+          <label for="brand">제조업체</label>
+          <select id="brand" name="brand">
+            <option value="">---선택---</option>
+            <option value="Nvidia">Nvidia</option>
+            <option value="AMD">AMD</option>
+            </select>
+           <label for="name">제품명</label>
+          <select id="name" name="name">
+            <option value="">---선택---</option>
+            <option class="Nvidia" value="Nvidia">RTX2080Ti</option>
+            <option class="Nvidia" value="Nvidia">RTX2080</option>
+            <option class="Nvidia" value="Nvidia">RTX2070Ti</option>
+            <option class="Nvidia" value="Nvidia">RTX2070</option>
+            <option class="Nvidia" value="Nvidia">RTX2060</option>
+            <option class="Nvidia" value="Nvidia">RTX1660Ti</option>
+            <option class="Nvidia" value="Nvidia">RTX1060</option>
+            <option class="Nvidia" value="Nvidia">RTX1050Ti</option>
+            <option class="AMD" value="AMD">Radeon VII</option>
+            <option class="AMD" value="AMD">Radeon RX Vega 64</option>
+            <option class="AMD" value="AMD">Radeon RX Vega 56</option>
+            <option class="AMD" value="AMD">Radeon RX 590</option>
+            <option class="AMD" value="AMD">Radeon RX 580</option>
+            <option class="AMD" value="AMD">Radeon 570</option>
+            <option class="AMD" value="AMD">Radeon 560</option>
+            <option class="AMD" value="AMD">Radeon 550</option>          
+            </select>
+          
+          <script src="//code.jquery.com/jquery.min.js"></script>
+          <script src='//rawgit.com/tuupola/jquery_chained/master/jquery.chained.min.js'></script>
+          <script>
+          $("#name").chained("#brand");
+          </script>
+         
+          
+          </fieldset></form>
+    </section>
+  </body>
+</html>
