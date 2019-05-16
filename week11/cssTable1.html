@@ -1,0 +1,27 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viweport" content="width=device-width,initial-scale=1"/>
+  <style>
+  table{border-collapse:collapse; width:100%;}
+  th, td {text-align:left; padding:8px;}
+  tr:nth-child(even) {background-color:lightgray;}
+  </style>
+   <title>CSS 스타일 실습</title>
+   </head>
+   <body>
+    <section>
+      <h3>반응형 테이블</h3>
+      <p>
+      다음은 반응형 테이블에 관한 것입니다. 반응형 테이블은 콘텐츠 대비 테이블의 폭의 작은 경우에 수평 스크롤바를 표시하는 것입니다. 반응형 테이블을 위해서는 테이블 컨테이너에 <strong>overflow-x:auto</strong>를 아래와 같이 추가하면 됩니다.
+      </p>
+      <div style="overflow-x:auto;">
+       <table>
+        <tr><th>이름</th><th>국어점수</th><th>영어점수</th><th>수학점수</th><th>물리점수</th><th>화학</th><th>생물점수</th><th>기술점수</th><th>국사점수</th><th>한문점수</th><th>상식</th></tr>
+        <tr><td>홍길동</td><td>95</td><td>77</td><td>67</td><td>80</td><td>85</td><td>86</td><td>79</td><td>80</td><td>95</td><td>85</td></tr>
+        <tr><td>이몽룡</td><td>95</td><td>94</td><td>96</td><td>92</td><td>95</td><td>95</td><td>94</td><td>90</td><td>90</td><td>90</td></tr>
+        <tr><td>변학도</td><td>85</td><td>84</td><td>86</td><td>82</td><td>95</td><td>85</td><td>94</td><td>80</td><td>90</td><td>90</td></tr>
+       </table>
+      </div>
+    </section>
+   </body>
