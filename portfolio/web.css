@@ -6,7 +6,7 @@
 @font-face
 {
 	font-family: 'NanumGothic';
-	src: url(NanumGothic.ttf) format('truetype');
+	src: url(NanumFont_TTF_ALL/NanumGothic.ttf) format('truetype');
 }
 body
 {
@@ -19,7 +19,7 @@ body
 {
 	padding :10px;
 	text-align: center;
-	background: white;
+	background: #D8D8D8;
 }
 
 .header h1
@@ -65,9 +65,10 @@ body
 
 .card
 {
-	background-color: white;
+	background-color: #D8D8D8;
 	padding : 20px;
 	margin-top:20px;
+
 }
 
 .row:after{
@@ -79,7 +80,31 @@ body
 .footer
 {
 	padding:10px;
-	text-align: center;
+	text-align: left;
 	background: white;
 	margin-top: 20px;
+	background-color: #374F68;
+}
+
+.footer h2,p
+{
+  color:white;
+}
+
+.footer a
+{
+	color:white;
+}
+
+a
+{
+  text-decoration: none;
+  color:black;
+}
+
+img
+{
+	position : relative;
+	left : 25px;
+	b
 }
