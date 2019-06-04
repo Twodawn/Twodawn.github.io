@@ -50,14 +50,30 @@ body
 
 .right
 {
+	overflow-x:hidden;
+	overflow-y:hidden;
+	max-width:100%;
 	float: left;
 	width: 25%;
 	background-color: #eee;
 	padding-left: 20px;
 }
 
+.right img
+{
+	overflow-x:hidden;
+	overflow-y:hidden;
+	max-width : 100%;
+	width : 400px;
+	height : auto;
+	position : relative;
+	left : 0px;
+}
+
+
 .fakeimg
 {
+	border-radius: 20px;
 	background-color: #aaa;
 	width:100%;
 	padding:20px;
@@ -65,13 +81,15 @@ body
 
 .card
 {
+	overflow-x:hidden;
+	overflow-y:hidden;
 	background-color: #D8D8D8;
 	padding : 20px;
 	margin-top:20px;
-
 }
 
-.row:after{
+.row:after
+{
 	content: "";
 	display:table;
 	clear:both;
@@ -102,9 +120,67 @@ a
   color:black;
 }
 
-img
+.footer img
 {
 	position : relative;
 	left : 25px;
-	b
+}
+
+div img
+{
+	position : absolute;
+	left:47px;
+}
+
+.card h3
+{
+	color : black;
+	position : absolute;
+	left : 280px;
+	bottom : 535px;
+}
+
+
+.profile
+{
+	position: relative;
+	left:250px;
+	bottom : 250px;
+}
+
+.profile img
+{
+	position: absolute;
+	left : -21px;
+	bottom : -2px;
+}
+
+.profile p
+{
+	color: black;
+	position: absolute;
+	left : 10px;
+	top : 40px;
+}
+
+.goal
+{
+	position: relative;
+	left:250px;
+	bottom : 255px;
+}
+
+.goal p
+{
+	color: black;
+	position: absolute;
+	left : 10px;
+	top : 40px;
+}
+
+.goal img
+{
+	position: absolute;
+	left : -21px;
+	bottom : -7px;
 }
